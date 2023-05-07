@@ -1,0 +1,131 @@
+/* Universal Section CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full-website{
+    width: 1024px;
+    height: auto;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu Section CSS */
+.menu{
+    width: 100%;
+    background-color: #34495e;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu h1{}
+
+/* Header Section CSS */
+.header{
+    width: 100%;
+    background-color: #e67e22;
+    text-align: center;
+    padding: 100px 0;
+}
+.header img{
+    box-shadow: 10px 10px 5px #fff;
+}
+
+
+
+
+/* Title Section CSS */
+.title{
+    width: 100%;
+    background-color: #34495e;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.title h1{
+    margin-bottom: 20px;
+}
+.title h3{
+    margin: 10px 0;
+    color: #3488c3;
+    font-size: 20px;
+}
+.title p{}
+
+
+
+/* Paragraph Section CSS */
+.para{
+    width: 100%;
+    background-color: #9b59b6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.para p{
+    padding: 10px 15px;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.para ul{
+    list-style: none;
+    padding-left: 0;
+}
+.para ul li{}
+.para ul li h3{}
+.para ul li h2{}
+
+.para ul li:nth-child(1) {
+    color: #198754;
+}
+.para ul li:nth-child(2) {
+    color: #d29d4a;
+}
+.para ul li:nth-child(3) {
+    color: #95a5a6;
+}
+
+
+
+/* Star Section CSS */
+.star{
+    width: 100%;
+    background-color: #ff9814;
+    text-align: center;
+    height: 100px;
+    padding: 80px 0px 80px 0px;
+}
+
+.star-body{
+    font-size: 30px;
+    background-color: #ddd;
+    display: inline-block;
+    width: 300px;
+    color: #000;
+    height: 80px;
+    border-radius: 10px;
+    border: 2px dashed #111;
+    box-shadow: 20px 25px 1px #fff;
+    padding-bottom: 15px;
+}
+
+.star-body h2{
+    margin-top: 20px;
+}
+
+
+
+/* Footer Section CSS */
+.footer{
+    width: 100%;
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer h3{
+    font-weight: 400;
+}
